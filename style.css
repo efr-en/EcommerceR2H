@@ -1,4 +1,5 @@
 html, body {
+    /* display: grid; */
     height: 100%;
     width: 100%;
     margin: 0;
@@ -8,7 +9,6 @@ html, body {
 }
 
 /* navbar */
-
 .main-logo {
     max-width: 100%;
     max-height: 10vh;
@@ -56,9 +56,7 @@ html, body {
     padding-left: 0;
     }
 }
-
 /* end navbar */
-
 
 .navi-container {
     display: flex;
@@ -67,7 +65,8 @@ html, body {
     
 }
 
-.hero-image {
+/* .hero-image {
+    display: block;
     background-image: url(images/nyjahHero.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +75,21 @@ html, body {
     width: 100%;
     margin-top: 35px;
     padding: 0;
+} */
+.sotm {
+    display: block;
+    background-image: url(images/nyjahHero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    height: 550px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+.hero-image:hover {
+    opacity: 20%;
 }
 
 #hero-name {
@@ -88,13 +101,30 @@ html, body {
     justify-self: center;
     align-self: center;
     font-size: 35px;
-    margin-top: 0px;
-    /* position: relative;
-    top: 15%;
-    left: 30%;   */
-    /* transform: translate(-50%, -%50); */
+    margin-top: 0;
     color: green;
     text-shadow: 1px 1px black;
 }
 
+.latestContent {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+
+    margin-top: 60px;
+    background-image: url(images/thrashContent.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+    /* width: 150px; */
+}
+
+#content-text {
+    text-align: center;
+    text-overflow: none;
+    color: white;
+    padding: 125px 150px;
+    font-size: 65px;
+}
 
