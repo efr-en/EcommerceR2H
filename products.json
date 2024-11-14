@@ -1,40 +1,40 @@
 {
     "products": [
         {
-            "image": "url",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b11bf5b4-33bd-4ea3-b14c-aa614fb96827/NIKE+SB+DUNK+LOW+PRO.png",
+            "name": "Nike SB Dunk Low Pro",
+            "price": 115,
+            "description": "Burnt Sunrise/Gum Light Brown/Vintage Green"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2d12da02-f14d-4781-9884-8729041fc8cf/NIKE+SB+JANOSKI%2B+SLIP.png",
+            "name": "Nike SB Janoski+ Slip",
+            "price": 67.97,
+            "description": "Dark Raisin/Dark Raisin/White/Black"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/635ece03-8fd8-4cbe-8518-3cd52c6d89dc/NIKE+SB+ZOOM+NYJAH+3.png",
+            "name": "Nike SB Nyjah 3",
+            "price": 65.97,
+            "description": "White/Summit White/Hyper Pink/Black"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/87e278ebf8cf4706a3bda7fa00e450a5_9366/Busenitz_Pro_Shoes_Black_G48060_01_standard.jpg",
+            "name": "Busenitz Pro Shoes",
+            "price": 85,
+            "description": "Core Black / Cloud White / Gold Metallic"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5588f39b546a493b8433ae7750cb92e5_9366/Samba_ADV_Shoes_Blue_JP5719_01_standard.jpg",
+            "name": "Samba ADV Shoes",
+            "price": 100,
+            "description": "Blue Bird / Cloud White / Gold Metallic"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://www.lakai.com/cdn/shop/files/CARDIFF_CHARCOAL-SUEDE_MS2240264A00_CHHSD_01.jpg?v=1714423636&width=1000",
+            "name": "LAKAI Cardiff",
+            "price": 80,
+            "description": "Charcoal Suede"
         },
         {
             "image": "https://blacksheepskateshop.com/cdn/shop/files/Element-Skateboards-Sections-Deck-8_0.jpg?v=1694105722&width=823",
