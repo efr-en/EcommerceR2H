@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "image": "",
+            "image": "url",
             "name": "",
             "price": ,
             "description": ""
@@ -37,40 +37,40 @@
             "description": ""
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://blacksheepskateshop.com/cdn/shop/files/Element-Skateboards-Sections-Deck-8_0.jpg?v=1694105722&width=823",
+            "name": "Element Skateboards Sections Deck 8.0inch",
+            "price": 69.95,
+            "description": "8 inch wide 7 ply hard rock maple deck"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://blacksheepskateshop.com/cdn/shop/files/Element-Skateboards-Gabriel-Fortunato-Section-Deck-8_0.jpg?v=1701920301&width=823",
+            "name": "Element Skateboards Gabriel Fortunato Section Deck 8.0",
+            "price": 69.95,
+            "description": "8 inch wide 7 ply hard rock maple deck"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://blacksheepskateshop.com/cdn/shop/files/Element-Skateboards-Magma-Section-Deck-7_75.jpg?v=1694122791&width=823",
+            "name": "Element Skateboards Magma Section Deck 7.75",
+            "price": 69.95,
+            "description": "7.75 inch wide 7 ply hard rock maple deck"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://blacksheepskateshop.com/cdn/shop/files/Toy-Machine-Skateboards-Jeremy-Leabres-Sock-Doll-Deck-8_13.jpg?v=1694121834&width=823",
+            "name": "Toy Machine Skateboards Jeremy Leabres Sock Doll Deck 8.13",
+            "price": 69.95,
+            "description": "8.13 inch wide 7 ply hard rock maple deck"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://blacksheepskateshop.com/cdn/shop/files/Toy-Machine-Skateboards-CJ-Collins-Sock-Doll-Deck-7_75.jpg?v=1694121815&width=823",
+            "name": "Toy Machine Skateboards CJ Collins Sock Doll Deck 7.75",
+            "price": 69.95,
+            "description": "7.75 inch wide 7 ply hard rock maple deck"
         },
         {
-            "image": "",
-            "name": "",
-            "price": ,
-            "description": ""
+            "image": "https://blacksheepskateshop.com/cdn/shop/products/Toy-Machine-Skateboards-Sect-Eye-Blue-Deck-7_88.jpg?v=1655260553&width=823",
+            "name": "Toy Machine Skateboards Sect Eye Blue Deck 7.88",
+            "price": 74.95,
+            "description": "7.88 inch wide 7 ply hard rock maple deck"
         }
     ]
 }
