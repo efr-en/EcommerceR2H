@@ -19,7 +19,8 @@ fetch("products.json")
         <div class="product-info">
         <div class="product-name">${product.name}</div>
         <div class="product-price">$${product.price.toFixed(2)}</div>
-        <div class="product-description"${product.description}</div>
+        <div class="product-description"<p>${product.description}</p></div>
+        <button id="atc-btn">Add to cart</button>
         </div> 
         `;
         productGrid.appendChild(card);
