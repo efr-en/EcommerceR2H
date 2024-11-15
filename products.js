@@ -14,8 +14,8 @@ fetch("products.json")
     data.products.forEach(product => {
         const card = document.createElement("div");
         card.className = "product-card";
-        card.textContent = `
-        <img src="${product.image}" alt="${product.name}">
+        card.innerHTML = `
+        <img id="product-IMG" src="${product.image}" alt="${product.name}">
         <div class="product-info">
         <div class="product-name">${product.name}</div>
         <div class="product-price">$${product.price.toFixed(2)}</div>
