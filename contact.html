@@ -22,7 +22,7 @@
             </ul>
             <!-- Hamburger Menu, when clicked, the target of mobile-demo will open  -->
             <a href="#" data-target="mobile-demo" class="sidenav-trigger right" id="hamburger-icon">
-            <i class="material-icons">menu</i></a>
+            <i class="material-icons">Menu</i></a>
         </div>
         </nav>
     <!-- Side Nav, hidden until hamburger menu is triggered through sidenav-trigger -->
@@ -34,34 +34,34 @@
     </header>
 
     <div class="contact-form">
-        <h1>Contact Us!</h1>
+        <h2>Contact Us!</h2>
         <form id="contactForm">
-            <div class="form-input">
+            <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Your Name">
                 <div class="error" id="nameError"></div>
             </div>
-            <div class="form-input">
+            <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Your Email">
                 <div class="error" id="emailError"></div>
             </div>
-            <div class="form-input">
+            <div class="form-group">
                 <label for="subject">Subject</label>
                 <input type="text" id="subject" name="subject" placeholder="What is this about?">
                 <div class="error" id="subjectError"></div>
             </div>
-            <div class="form-input">
+            <div class="form-group">
                 <label for="message">Message</label>
-                <textarea id="name" name="name" placeholder="Your Message"></textarea>
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
                 <div class="error" id="messageError"></div>
             </div>
-            <button type="submit">submit</button>
+            <button type="submit" onsubmit()>submit</button>
         </form>
         <div class="success-message" id="successMessage"></div>  <!-- where the success message pops up -->
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="contact.js"></script>
+    <script src="contact.js" defer></script>
 </body>
 </html>
