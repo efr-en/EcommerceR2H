@@ -16,7 +16,7 @@
     align-items: center;
 }
 #mobile-demo {
-    background-color: #0077ff;
+    background-color: #000000;
 }
 #mobile-demo li a {
     color: rgb(255, 255, 255);
@@ -43,6 +43,9 @@
     }
 }
 /* end navbar */
+html {
+    background-color: rgb(241, 225, 176);
+}
 
 .contact-form {
     max-width: 600px;
@@ -122,4 +125,31 @@ textarea {
     color: green;
     text-align: center;
     margin-top: 20px;
+}
+
+footer {
+    padding: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+footer a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(241, 225, 176);
+}
+footer a:hover {
+    color: rgb(255, 196, 20);
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    color: rgb(255, 0, 0);
 }
