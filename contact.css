@@ -23,6 +23,20 @@
     font-size: 30px;
     padding: 40px;
 }
+.material-icons:hover {
+    transform: scale(1.05);
+    color: rgb(241, 225, 176);
+}
+.nav-text {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.nav-text:hover {
+    transform: scale(1.05);
+    color: rgb(241, 225, 176);
+}
+
 @media (max-width: 992px) {
     #logo-container {
     display: flex;
@@ -46,6 +60,11 @@
 html {
     background-color: rgb(241, 225, 176);
 }
+body {
+    font-family: "Geist", sans-serif;
+    font-weight: 200;
+    font-optical-sizing: auto;
+}
 
 .contact-form {
     max-width: 600px;
@@ -62,7 +81,7 @@ html {
 
 .contact-form h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 /* 
 .contact-form .form-group {

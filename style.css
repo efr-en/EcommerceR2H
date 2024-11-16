@@ -39,6 +39,20 @@ li a {
     font-size: 30px;
     padding: 40px;
 }
+.material-icons:hover {
+    transform: scale(1.05);
+    color: rgb(241, 225, 176);
+}
+.nav-text {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.nav-text:hover {
+    transform: scale(1.05);
+    color: rgb(241, 225, 176);
+}
+
 @media (max-width: 992px) {
     #logo-container {
     display: flex;
@@ -52,11 +66,6 @@ li a {
     align-items: center;
     }
 }
-
-/* header, main, footer {
-    padding-left: 300px;
-} */
-
 @media only screen and (max-width : 992px) {
     header, main, footer {
     padding-left: 0;
