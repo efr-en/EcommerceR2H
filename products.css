@@ -186,13 +186,11 @@ footer p {
         font-size: 1.5rem;
     }
 }
-
 @media (max-width : 617px) {
     footer a {
         padding: 20px;
     }
 }
-
 @media (min-width: 1730px) {
     .grid-container {
         padding-right: 70px;

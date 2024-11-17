@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
         fullWidth: false,
         indicators: true, 
         numVisible: 5,
-        dist: -60,
-        height: 500,
+        dist: -70,
+        height: 500
     });
 });
 
