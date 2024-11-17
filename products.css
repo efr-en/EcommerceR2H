@@ -67,6 +67,13 @@ body {
     font-optical-sizing: auto;
     justify-content: center;
 } 
+i.fa-solid.fa-cart-shopping {
+    padding-right: 30px;
+    cursor: pointer;
+}
+i.fa-solid.fa-cart-shopping:hover {
+    transform: scale(1.1);
+}
 #products-heading {
     display: block;
     text-align: center;
@@ -80,7 +87,6 @@ body {
     display: grid;
     gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    /* max-width: 1730px;  */
     width: 100%;
     padding: 50px 15px;
 }
@@ -161,21 +167,21 @@ footer a:hover {
 footer p {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 1.5rem;
     justify-content: center;
-    color: rgb(255, 0, 0);
+    color: rgb(198, 0, 25);
+    text-shadow: 0.5px 0.5px rgb(241, 225, 176) ;
+    font-family: "Galada", cursive;
 }
+
 
 /* Media queries */
 @media (min-width: 1730px) {
-    /* #product-IMG {
-        display: inline-block;
-        text-align: center;    
-        width: 500px;
-        height: 500px;
-        padding: 0;
-        object-fit: contain;
-    } */
+    .grid-container {
+        padding-right: 70px;
+        padding-left: 70px;
+        gap: 80px;
+    }
 
     
 }

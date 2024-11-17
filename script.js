@@ -7,8 +7,15 @@ document.addEventListener("DOMContentLoaded", function () {
     var instances = M.Sidenav.init(elems, { edge: "right" }); 
 });
 
-// languageEl.addEventListener('click', function() {
-//     // Something that's interesting is "instances" returns an array
-//     instances[0].open();
-//   });
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+
+    var instances = M.Carousel.init(elems, {
+        fullWidth: false,
+        indicators: true, 
+        numVisible: 5,
+        dist: -60,
+        height: 500,
+    });
+});
 

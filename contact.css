@@ -65,6 +65,13 @@ body {
     font-weight: 200;
     font-optical-sizing: auto;
 }
+i.fa-solid.fa-cart-shopping {
+    padding-right: 30px;
+    cursor: pointer;
+}
+i.fa-solid.fa-cart-shopping:hover {
+    transform: scale(1.1);
+}
 
 .contact-form {
     max-width: 600px;
@@ -168,7 +175,20 @@ footer a:hover {
 footer p {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 1.5rem;
     justify-content: center;
-    color: rgb(255, 0, 0);
+    color: rgb(198, 0, 25);
+    text-shadow: 0.5px 0.5px rgb(241, 225, 176) ;
+    font-family: "Galada", cursive;
+}
+
+@media (max-width : 617px) {
+    .contact-form {
+        margin-top: 4.2rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    footer a {
+        padding: 20px;
+    }
 }

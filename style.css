@@ -1,5 +1,4 @@
-html, body {
-    /* display: grid; */
+body {
     height: 100vh;
     width: 100vw;
     margin: 0;
@@ -80,18 +79,14 @@ li a {
     
     
 }
+i.fa-solid.fa-cart-shopping {
+    padding-right: 30px;
+    cursor: pointer;
+}
+i.fa-solid.fa-cart-shopping:hover {
+    transform: scale(1.1);
+}
 
-/* .hero-image {
-    display: block;
-    background-image: url(images/nyjahHero.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 600px;
-    width: 100%;
-    margin-top: 35px;
-    padding: 0;
-} */
 .sotm {
     display: flex;
     background-image: url(images/nyjahHero.jpeg);
@@ -111,8 +106,9 @@ li a {
 }
 
 #hero-name {
-    color: red;
-    text-shadow: 2px 2px black;
+    color: rgb(198, 0, 25);
+    text-shadow: 2px 2px rgb(241, 225, 176);
+    font-family: "Galada", cursive;
 }
 .hero-text {
     text-align: center;
@@ -123,19 +119,6 @@ li a {
     padding: 0;
     color: green;
     text-shadow: 1px 1px black;
-}
-
-.latestContent {
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    margin-top: 60px;
-    background-image: url(images/thrashContent.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 500px;
-    /* width: 150px; */
 }
 
 #shopall-btn {
@@ -157,16 +140,50 @@ li a {
 #content-text {
     text-align: center;
     text-overflow: none;
+    /* overflow: hidden; */
     color: white;
     padding: 125px 150px;
     font-size: 65px;
 }
+
+.carousel {
+    height: 600px;
+    perspective: 250px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 9, 9);
+    text-shadow: 0px 1px rgb(241, 225, 176);
+    margin: 2rem 0 2rem 0;
+    background-color: black;
+}
+#thrash-header{
+    text-align: center;
+}
+.carousel img {
+    display: block;
+    /* padding-top: 80px;
+    padding: 20px; */
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+    scale: 2;
+    /* min-height: 900px; */
+}
+
+/* #thrash-btn {
+    margin-top: 210px;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    border-radius: 0.8rem;
+    background-color: rgb(241,225,176);
+} */
 
 footer {
     padding: 40px;
     background-color: black;
     display: flex;
     flex-direction: row;
+    
 }
 
 footer a {
@@ -184,8 +201,27 @@ footer a:hover {
 footer p {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 1.5rem;
     justify-content: center;
-    color: rgb(255, 0, 0);
-    /* text-outline: rgb(241,225,176); */
+    color: rgb(198, 0, 25);
+    text-shadow: 0.5px 0.5px rgb(241, 225, 176) ;
+    font-family: "Galada", cursive;
+}
+
+@media (max-width : 670px) {
+    .carousel img {
+        scale: 1.4;
+    }
+    .sotm {
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+@media (min-width : 1530px) {
+    .carousel img {
+        padding: 2rem 0 2rem 0;
+        scale: 2.1;
+    }
+
 }
