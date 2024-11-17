@@ -86,7 +86,7 @@ i.fa-solid.fa-cart-shopping:hover {
 .grid-container {
     display: grid;
     gap: 50px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(218px, 1fr));
     width: 100%;
     padding: 50px 15px;
 }
@@ -128,10 +128,14 @@ i.fa-solid.fa-cart-shopping:hover {
 }
 .product-description {
     text-align: center;
-    font-size: 1.0em;
+    font-size: 1em;
     color: #000000;
+    font-weight: bolder;
     line-height: 1.2;
-    
+    padding-bottom: 7px;
+}
+.product-colorway {
+    font-size: 0.9em;
 }
 
 /* Add to cart button */
@@ -176,12 +180,23 @@ footer p {
 
 
 /* Media queries */
+@media (max-width: 420px) {
+    #atc-btn {
+        padding: 10px 16px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width : 617px) {
+    footer a {
+        padding: 20px;
+    }
+}
+
 @media (min-width: 1730px) {
     .grid-container {
         padding-right: 70px;
         padding-left: 70px;
         gap: 80px;
     }
-
-    
 }

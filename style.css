@@ -3,7 +3,8 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    background-color: rgb(241,225,176);
+    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(241, 225, 176);
     font-family: "Geist", sans-serif;
     font-weight: 200;
     font-optical-sizing: auto;
@@ -123,7 +124,10 @@ i.fa-solid.fa-cart-shopping:hover {
 
 #shopall-btn {
     color: rgb(241, 255, 176);
-    padding: 20px 40px;
+    padding: 15px 40px;
+    font-family: "Galada", cursive;
+    text-align: center;
+    align-content: center;
     margin-top: 30px;
     border-radius: 10px;
     border: none;
@@ -133,14 +137,15 @@ i.fa-solid.fa-cart-shopping:hover {
 }
 #shopall-btn:hover {
     color: red;
+    font-family: "Galada", cursive;
     transform: scale(1.02);
+    border-radius: 10px;
     background-color: rgb(0, 0, 0);
 }
 
 #content-text {
     text-align: center;
     text-overflow: none;
-    /* overflow: hidden; */
     color: white;
     padding: 125px 150px;
     font-size: 65px;
@@ -158,25 +163,17 @@ i.fa-solid.fa-cart-shopping:hover {
 }
 #thrash-header{
     text-align: center;
+    margin-top: 120px;
+    /* background-color: rgb(198, 0, 25);
+    color: rgb(241, 225, 176); */
 }
 .carousel img {
     display: block;
-    /* padding-top: 80px;
-    padding: 20px; */
     width: fit-content;
     height: fit-content;
     object-fit: cover;
     scale: 2;
-    /* min-height: 900px; */
 }
-
-/* #thrash-btn {
-    margin-top: 210px;
-    font-size: 1.3rem;
-    padding: 10px 10px;
-    border-radius: 0.8rem;
-    background-color: rgb(241,225,176);
-} */
 
 footer {
     padding: 40px;
@@ -208,6 +205,12 @@ footer p {
     font-family: "Galada", cursive;
 }
 
+@media (max-width : 617px) {
+    footer a {
+        padding: 20px;
+    }
+}
+
 @media (max-width : 670px) {
     .carousel img {
         scale: 1.4;
@@ -216,12 +219,11 @@ footer p {
         background-position: center;
         background-size: cover;
     }
-
 }
+
 @media (min-width : 1530px) {
     .carousel img {
         padding: 2rem 0 2rem 0;
         scale: 2.1;
     }
-
 }
